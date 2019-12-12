@@ -18,7 +18,7 @@
     <section class="main__maw">
         <div class="maw__wrap">
             <img class="wrap__logo" src="img/maw-logo.png" alt="Make-A-Wish">
-            <iframe class="wrap__video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            <iframe class="wrap__video" src="https://www.youtube.com/embed/uMwY_tnRNOU">
             </iframe>
         </div>
         <div class="maw__wrap">
@@ -27,7 +27,7 @@
                 <hr class="article-maw__hr">
                 <p class="article-maw__text">Elke dag horen gemiddeld 3 families in Nederland dat hun kind een ernstige, soms zelfs levensbedreigende ziekte heeft. Het gezinsleven verandert in één klap totaal. Die impact is moeilijk voor te stellen. Make-A-Wish Nederland wil al deze jonge patiënten tussen 3 en 18 jaar een positieve boost meegeven. Een ervaring die ze sterker maakt. En vertrouwen en kracht geeft voor de toekomst. Dat doen we door samen hun allerliefste wens te laten uitkomen.</p>
                 <div class="centerwrap">
-                    <a class="readmore--blue article__donate" href="https://makeawishnederland.org/actie/1374/media-college-amsterdam-in-actie">DONEER NU!</a>
+                    <a class="readmore--blue" href="https://makeawishnederland.org/actie/1374/media-college-amsterdam-in-actie" target="_blank">DONEER NU!</a>
                 </div>
             </div>
         </div>
@@ -105,4 +105,6 @@
             <iframe class="commercial__video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
             </iframe>
     </section>
+
+    <script src="{{url('/js/slider.js')}}"></script>
 @endsection

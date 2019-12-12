@@ -1,0 +1,112 @@
+.main__reportages{
+    background-image: url('/img/shallow-focus-photo-of-video-recording-3062556.jpg');
+    height: 80vh;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-position-y: -150px;
+}
+.reportages__filter{
+    background-color: rgba(221, 0, 116, .45);
+    height: 80vh;
+}
+.filter__article{
+    width: 500px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, .65);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 120px 2.5%;
+}
+.article__title{
+    font-size: 42px;
+    margin: 1em 90px .5em 90px;
+    color: #fff;
+}
+.article__text{
+    color: #fff;
+    margin: 0 90px 0px 90px;
+    line-height: 1.5em;
+    padding-bottom: 42px;
+}
+.main__maw{
+    height: 80vh;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.maw__wrap{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+.wrap__logo{
+    width: 80%;
+    height: auto;
+    margin-top: 3em;
+}
+.wrap__video{
+    width: 85%;
+    height: 350px;
+    margin-bottom: 3em;
+}
+.wrap__article-maw{
+    width: 65%;
+    margin: 0 auto;
+}
+.article-maw__title{
+    color: #043FA8;
+    font-size: 42px;
+}
+.article-maw__text{
+    line-height: 1.2em;
+    padding-bottom: 42px;
+}
+.article-maw__hr{
+    border: 1px solid #043FA8;
+    width: 100%;
+    margin: 30px 0;
+}
+.article__donate{
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.centerwrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main__verslag {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(221, 0, 116, .20);
+}
+.main__verslag--white{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.verslag__article-verslag{
+    width: 35%;
+    margin: auto 7.5%;
+}
+.article-verslag__title{
+    font-size: 38px;
+}
+.article-verslag__text{
+    margin: 30px 0 0 0;
+    line-height: 1.5em;
+}
+.verslag__video{
+    width: 600px;
+    height: 350px;
+    margin: auto 7.5% auto 7.5%;
+}
+
+

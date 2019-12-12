@@ -1,0 +1,26 @@
+[
+  {
+    "id"      : "1",
+    "actie"   : "actie1",
+    "coverpic": "/img/variety-of-assorted-designed-cookies-752499.jpg",
+    "title"   : "Homemade cookies for sale!",
+    "text"    : "Als actie hadden wij bedacht om koekjes te verkopen. Dit plan is super goed gelukt, we hebben zo’n 200 koekjes verkocht aan docenten en leerlingen, dat bracht een totaal op van 125 euro!",
+    "autors"  : "Albus Perkamentus, Jeroen Dijkstra, Harry Potter en Voldemort Postma"
+  },
+  {
+    "id"      : "2",
+    "actie"   : "actie2",
+    "coverpic": "/img/variety-of-assorted-designed-cookies-752499.jpg",
+    "title"   : "Homemade cookies for sale!",
+    "text"    : "Als actie hadden wij bedacht om koekjes te verkopen. Dit plan is super goed gelukt, we hebben zo’n 200 koekjes verkocht aan docenten en leerlingen, dat bracht een totaal op van 125 euro!",
+    "autors"  : "Albus Perkamentus, Jeroen Dijkstra, Harry Potter en Voldemort Postma"
+  },
+  {
+    "id"      : "3",
+    "actie"   : "actie3",
+    "coverpic": "/img/variety-of-assorted-designed-cookies-752499.jpg",
+    "title"   : "Homemade cookies for sale!",
+    "text"    : "Als actie hadden wij bedacht om koekjes te verkopen. Dit plan is super goed gelukt, we hebben zo’n 200 koekjes verkocht aan docenten en leerlingen, dat bracht een totaal op van 125 euro!",
+    "autors"  : "Albus Perkamentus, Jeroen Dijkstra, Harry Potter en Voldemort Postma"
+  }
+]

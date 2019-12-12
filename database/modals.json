@@ -1,0 +1,65 @@
+[
+    {
+        "id"        : 1,
+        "title"     : "Loterij met leuke prijzen",
+        "content"   : "Kom in de grote pauze langs bij onze loterij en maak kans op leuke prijzen. Het opgehaalde geld gaat naar stichting Make-A-Wish NL.",
+        "img"       : "actie1.png",
+        "autor"     : "Door: Tara, Vita, Esli, Boet, Ilse en Manon"
+    },
+    {
+        "id"        : 2,
+        "title"     : "Kaartverkoop Winterbreak",
+        "content"   : "19 December 2019 23:30-04:30 Club Next Zaandam Scholen gala Afterparty! Na 7 uitverkochte edities zijn wij terug met een kerstgala! Pre Party kaartverkoop op het Mediacollege!",
+        "img"       : "actie2.png",
+        "autor"     : "Door: Noa, Brent, Nils en Joy"
+    },
+    {
+        "id"        : 3,
+        "title"     : "DALFRequest",
+        "content"   : "Op 16,17 en 19 december staan wij met onze grabbelton tussen de andere stands! Op 18 december gaan wij van €1, €1000 proberen te maken.",
+        "img"       : "actie3.png",
+        "autor"     : "Door: Robin, Lois, Fay, Doris en Amber"
+    },
+    {
+        "id"        : 4,
+        "title"     : "Fotoshoot met je vrienden!",
+        "content"   : "Tijdens de week van MaRequest kan je voor 1 euro een fotoshoot houden met je vrienden! En voor 2 euro zelfs met een polaroidcamera!",
+        "img"       : "actie4.png",
+        "autor"     : "Door: Michelle, Justina, Demi, Noa en Jahmy"
+    },
+    {
+        "id"        : 5,
+        "title"     : "Just Move It",
+        "content"   : "Just Dance doen met je vrienden of een klasgenoot? Kan allemaal tijdens de pauzes van (!incomplete)",
+        "img"       : "actie5.png",
+        "autor"     : "Door: Julia, Ira, Justin, Thomas en Raonah"
+    },
+    {
+        "id"        : 6,
+        "title"     : "Prik en win!",
+        "content"   : "Ballonnen lek prikken voor leuke prijzen?! Of een straatartiest bezoeken! Kom dan langs in de kantine of ergens in Amsterdam!",
+        "img"       : "actie6.png",
+        "autor"     : "Door: Jessie, Beaudine, Iris, Danilo en Ismay"
+    },
+    {
+        "id"        : 7,
+        "title"     : "Lekker Hollands!!",
+        "content"   : "In de kantine gaan we puur Hollandse spellen doen. Spelletjes als bier-pong, darten en sjoelen. Wie de hoogste score heeft krijgt een prijs. Kosten zijn 50 cent.",
+        "img"       : "actie7.png",
+        "autor"     : "Door: Joris, Thom, Nathalie, Lotus en Zoë"
+    },
+    {
+        "id"        : 8,
+        "title"     : "Het MA Sumoworstelaars toernooi",
+        "content"   : "Kom naar de actie ‘Sumoworstelen’ en trek het sumopak meteen aan! De winnaar krijgt een speciale prijs! Prijs: €3,50. De actie zijn op: 17,18 & 19 December.",
+        "img"       : "actie8.png",
+        "autor"     : "Door: Meryem, Isabelle, Amna en Selina"
+    },
+    {
+        "id"        : 9,
+        "title"     : "Taarten gooien op leraren",
+        "content"   : "Op 16 en 17 December a.s. Kan je taarten komen gooien op verschillende leraren in de kantine. De hoogste bieder mag gooien!",
+        "img"       : "actie9.png",
+        "autor"     : "Door: Anniek, Celine, Mohammed en Esmee"
+    }
+]

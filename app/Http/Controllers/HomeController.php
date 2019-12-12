@@ -19,7 +19,24 @@ class HomeController extends Controller
         $pagina = "Acties";
         $css = strtolower($pagina);
         $active = $css;
-        return view('acties', ['pagina' =>$pagina, 'css' => $css, 'active' => $active]);
+
+        // Pad naar JSON file opslaan in variabele
+        $jsonFile = database_path('modals.json');
+
+        // Checken of bestand bestaat
+        if(!file_exists($jsonFile)) {
+            return 'JSON file niet gevonden: ' . $jsonFile;
+        }
+
+        // Inhoud inlezen
+        $json = file_get_contents($jsonFile);
+
+        // Terug zetten naar array in PHP
+        $modalData = json_decode($json);
+
+        // Dump (uitcommenten als het werkt ;-)
+//        dd($modalData);
+        return view('acties', ['pagina' =>$pagina, 'css' => $css, 'active' => $active, 'modals' => $modalData]);
     }
 
     public function showGame()
