@@ -1,0 +1,212 @@
+.main__acties{
+    background-image: url('/img/running.jpg');
+    background-position: 0 -450px;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 80vh;
+}
+.acties__filter{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, .3);
+}
+.filter__content{
+    width: 500px;
+    height: 350px;
+    background-color: rgba(221, 0, 116, .49);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 80px 2.5%;
+}
+.content__title{
+    font-size: 42px;
+    margin: 1em 0 .8em 90px;
+    color: #fff;
+}
+.content__text{
+    color: #fff;
+    margin: 0 90px 54px 90px;
+    line-height: 1.5em;
+}
+.content__readmore{
+    margin-left: 90px;
+}
+.main__maw{
+    height: 80vh;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.maw__wrap{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+.wrap__logo{
+    width: 80%;
+    height: auto;
+    margin-top: 3em;
+}
+.wrap__video{
+    width: 85%;
+    height: 350px;
+    margin-bottom: 3em;
+}
+.wrap__article-maw{
+    width: 65%;
+    margin: 0 auto;
+}
+.article-maw__title{
+    color: #043FA8;
+    font-size: 42px;
+}
+.article-maw__text{
+    line-height: 1.2em;
+    padding-bottom: 42px;
+}
+.article-maw__hr{
+    border: 1px solid #043FA8;
+    width: 100%;
+    margin: 30px 0;
+}
+.article__donate{
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.centerwrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main__game{
+    background-image: url('/img/photography-of-a-woman-wearing-virtual-reality-headset-911682.jpg');
+    background-position: 0 -70px;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 100vh;
+}
+.game__filter{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(221, 0, 116, .24);
+}
+.filter__article{
+    width: 500px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, .49);
+    display: block;
+    position: absolute;
+    right: 0;
+    margin: 80px 2.5% 0 0;
+}
+.article__title{
+    font-size: 42px;
+    margin: 1em 90px .5em 90px;
+    color: #fff;
+}
+.article__text{
+    color: #fff;
+    margin: 0 90px 0px 90px;
+    line-height: 1.5em;
+    padding-bottom: 42px;
+}
+.article__readmore{
+    margin-left: 90px;
+}
+.main__reportages{
+    height: 80vh;
+    display: flex;
+}
+.reportages__article-repo{
+    width: 50%;
+    margin: auto 7.5%;
+}
+.article-repo__title{
+    font-size: 42px;
+    margin: 30px 0;
+}
+.article-repo__text{
+    max-width: 500px;
+    line-height: 1.5em;
+    margin-bottom: 42px;
+
+}
+.article-repo__readmore{
+    margin-left: auto;
+
+}
+.reportage__wrap{
+    width: 50%;
+    margin: auto 7.5% auto 0;
+}
+
+.main__livestream{
+    background-image: url('/img/crowd-of-people-enjoying-on-concert-3052360.jpg');
+    background-size: 100%;
+    background-position: 0 -100px;
+    height: 80vh;
+    width: 100%;
+}
+.livestream__filter{
+    background-color: rgba(221, 0, 116, .20);
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.filter__video{
+    width: 800px;
+    height: 400px;
+    margin: auto 0 auto 7.5%;
+}
+.filter__article-live{
+    background-color: rgba(221, 0, 116, .62);
+    width: 500px;
+    height: 250px;
+    display: block;
+    right: 0;
+    margin: auto 7.5% auto 0;
+}
+.article-live__title{
+    font-size: 38px;
+    color: #fff;
+    margin: 1.5em 0 30px 40px;
+}
+.article-live__text{
+    margin: 0 40px 40px 40px;
+    color: #fff;
+    line-height: 1.5em;
+}
+.main__commercial{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+.article-commercial__wrapper{
+    width: 100%;
+}
+.commercial__article-commercial{
+    width: 50%;
+    margin: auto 7.5%;
+}
+.wrapper__title{
+    font-size: 38px;
+    margin-bottom: .7em;
+}
+.wrapper__text{
+    line-height: 1.5em;
+    font-size: 20px;
+}
+.commercial__video{
+    width: 800px;
+    height: 400px;
+    margin: auto 7.5% auto 0;
+}
+
+
