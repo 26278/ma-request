@@ -19,5 +19,7 @@ Route::get('/game', 'HomeController@showGame');
 
 Route::get('/reportages', 'HomeController@showReportages');
 
+Route::get('/contact', 'HomeController@showContact');
+
 Route::redirect('/ma', 'https://www.ma-web.nl/');
 

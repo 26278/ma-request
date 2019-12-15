@@ -17,7 +17,11 @@
     @foreach($modals as $modal)
         <!-- Trigger/Open The Modal -->
             <div class="myBtn__multi grid__element" style="background-image: url('{{url('img/' . $modal->img)}}');">
-            <div class="element__filter"></div>
+            <div class="element__filter">
+                <div id="dummy"></div>
+                <div id="element">
+                </div>
+            </div>
             </div>
 
         <!-- The Modal -->

@@ -10,25 +10,41 @@
     <link rel="stylesheet" href="https://use.typekit.net/ojo1xib.css">
     <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="/css/{{$css}}.css">
+    <link rel="stylesheet" href="/css/sideNav.css">
     @yield('stylesheets')
 </head>
 
 <body>
-<header class="header">
-    <div class="header__logo">
-        <img src="img/MaRequest.png" alt="MaRequest" class="logo__img" onclick="location.href='{{url('/')}}'">
-    </div>
-    <nav class="header__nav">
-        <a href="{{url("/")}}" class="nav__part @if($active === 'home')nav__part--active @else() @endif">Home</a>
-        <a href="{{url("/acties")}}" class="nav__part @if($active === 'acties')nav__part--active @else() @endif">Acties</a>
-        <a href="{{url("/game")}}" class="nav__part @if($active === 'vr-game')nav__part--active @else() @endif">VR game</a>
-        <a href="{{url("/reportages")}}" class="nav__part @if($active === 'reportages')nav__part--active @else() @endif">Reportages</a>
-        <a href="{{url("/contact")}}" class="nav__part @if($active === 'contact')nav__part--active @else() @endif">Contact</a>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><a href="{{url("/")}}" class="nav__part @if($active === 'home')nav__part--active @else() @endif">Home</a>
+    <a href="{{url("/acties")}}" class="sidenav__link @if($active === 'acties')sidenav__link--active @else() @endif">Acties</a>
+    <a href="{{url("/game")}}" class="sidenav__link @if($active === 'vr-game')sidenav__link--active @else() @endif">VR game</a>
+    <a href="{{url("/reportages")}}" class="sidenav__link @if($active === 'reportages')sidenav__link--active @else() @endif">Reportages</a>
+    <a href="{{url("/contact")}}" class="sidenav__link @if($active === 'contact')sidenav__link--active @else() @endif">Contact</a>
 
-        <a href="https://makeawishnederland.org/actie/1374/media-college-amsterdam-in-actie" class="nav__part nav__part--doneer" target="_blank">DONEER</a>
-    </nav>
-    <img class="header__ma-logo" src="img/ma-logo.png" alt="Mediacollege Amsterdam" onclick="window.open('{{url('/ma')}}', '_blank')">
-</header>
+    <a href="https://makeawishnederland.org/actie/1374/media-college-amsterdam-in-actie" class="sidenav__link sidenav__link--doneer" target="_blank">DONEER</a>
+</div>
+
+<div class="wrap">
+    <header class="header">
+        <div class="header__logo">
+            <img src="img/MaRequest.png" alt="MaRequest" class="logo__img" onclick="location.href='{{url('/')}}'">
+        </div>
+        <nav class="header__nav">
+            <a href="{{url("/")}}" class="nav__part @if($active === 'home')nav__part--active @else() @endif">Home</a>
+            <a href="{{url("/acties")}}" class="nav__part @if($active === 'acties')nav__part--active @else() @endif">Acties</a>
+            <a href="{{url("/game")}}" class="nav__part @if($active === 'vr-game')nav__part--active @else() @endif">VR game</a>
+            <a href="{{url("/reportages")}}" class="nav__part @if($active === 'reportages')nav__part--active @else() @endif">Reportages</a>
+            <a href="{{url("/contact")}}" class="nav__part @if($active === 'contact')nav__part--active @else() @endif">Contact</a>
+
+            <a href="https://makeawishnederland.org/actie/1374/media-college-amsterdam-in-actie" class="nav__part nav__part--doneer" target="_blank">DONEER</a>
+        </nav>
+        <img class="header__ma-logo" src="img/ma-logo.png" alt="Mediacollege Amsterdam" onclick="window.open('{{url('/ma')}}', '_blank')">
+        <img src="/img/menu.svg" alt="" class="header__menu" onclick="openNav()">
+    </header>
+</div>
+<div class="space-behind"></div>
+
 
 <main class="main">
     @yield('main')
@@ -72,6 +88,6 @@
         </div>
     </div>
 </footer>
-
+<script src="/js/sideNav.js"></script>
 </body>
 </html>

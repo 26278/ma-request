@@ -1,8 +1,7 @@
 .main__contact{
     background-image: url('/img/man-using-laptop-on-table-against-white-background-257897.jpg');
-    background-position: 0 -200px;
-    -webkit-background-size: 100%;
-    background-size: 100%;
+    background-size: 110%;
+    background-position: 50% 60%;
     height: 80vh;
 }
 .contact__filter{
@@ -37,4 +36,59 @@
     width: 100%;
     display: grid;
     justify-content: center;
+}
+@media screen and (max-width: 1160px){
+    .main__contact {
+        background-size: 130%;
+    }
+}
+@media screen and (max-width: 990px){
+    .main__contact {
+        background-size: 150%;
+    }
+}
+@media screen and (max-width: 860px){
+    .main__contact {
+        background-size: 180%;
+    }
+}
+@media screen and (max-width: 750px){
+    .main__contact{
+        height: 60vh;
+        background-size: 170%;
+    }
+    .contact__filter{
+        height: 60vh;
+    }
+    .filter__content{
+        height: 30vh;
+        margin: 30vh 0 0 0;
+        bottom: unset;
+        width: 100%;
+        background-color: rgba(221, 0, 116, .45);
+    }
+    .content__title{
+        margin: 1.5em 7.5% .5em 7.5%;
+    }
+    .content__text{
+        margin: 0 7.5% 0px 7.5%;
+    }
+}
+@media screen and (max-width: 580px){
+    .main__contact{
+        background-size: 210%;
+    }
+}
+@media screen and (max-width: 480px){
+    .main__contact {
+        background-size: 215%;
+        height: 50vh;
+    }
+    .contact__filter {
+        height: 50vh;
+    }
+    .filter__content {
+        margin: 20vh 0 0 0;
+    }
+}
 }

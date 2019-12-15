@@ -2,8 +2,8 @@
     background-image: url('/img/shallow-focus-photo-of-video-recording-3062556.jpg');
     height: 80vh;
     -webkit-background-size: 100%;
-    background-size: 100%;
-    background-position-y: -150px;
+    background-size: 110%;
+    background-position: 50% 50%;
 }
 .reportages__filter{
     background-color: rgba(221, 0, 116, .45);
@@ -110,3 +110,98 @@
 }
 
 
+@media screen and (max-width: 1100px) {
+    .main__reportages{
+        background-size: 140%;
+        background-position: 50% 40%;
+    }
+}
+@media screen and (max-width: 890px) {
+    .main__reportages{
+        background-size: 170%;
+        background-position: 50% 40%;
+    }
+    .wrap__article-maw{
+        width: 80%;
+    }
+    .wrap__logo, .wrap__video{
+        width: 100%;
+    }
+    .main__verslag, .main__verslag--white{
+        flex-direction: column;
+    }
+    .verslag__article-verslag, .verslag__video{
+        width: 85%;
+    }
+    .article-verslag__title{
+        margin: .5em 0 .5em 0;
+    }
+    .article-verslag__text{
+        margin-bottom: .5em;
+    }
+}
+
+
+@media screen and (max-width: 750px){
+    .main__reportages{
+        height: 60vh;
+        background-size: 170%;
+        background-position: 50% 40%;
+    }
+    .reportages__filter{
+        height: 60vh;
+    }
+    .filter__article{
+        height: 30vh;
+        margin: 30vh 0 0 0;
+        bottom: unset;
+        width: 100%;
+    }
+    .article__title{
+        margin: 1.5em 7.5% .5em 7.5%;
+    }
+    .article__text{
+        margin: 0 7.5% 0px 7.5%;
+    }
+    .main__maw{
+        flex-direction: column;
+        height: 110vh;
+    }
+    .maw__wrap{
+        width: 100%;
+    }
+    .wrap__logo{
+        margin: 3em auto;
+    }
+    .wrap__video{
+        margin: 0 auto 3em auto;
+        height: 300px;
+    }
+    .wrap__article-maw{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 580px){
+    .main__reportages{
+        background-size: 210%;
+}
+    .wrap__video{
+        height: 200px;
+    }
+    .verslag__video {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 475px){
+    .main__reportages{
+        height: 50vh;
+        background-size: 210%;
+    }
+    .reportages__filter{
+        height: 50vh;
+    }
+    .filter__article{
+        height: 30vh;
+        margin: 20vh 0 0 0;
+    }
+}

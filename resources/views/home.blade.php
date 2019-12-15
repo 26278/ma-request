@@ -44,7 +44,7 @@
     </section>
     <section class="main__reportages">
         <div class="reportages__article-repo">
-            <h2 class="article-repo__title">Bekijk de dagreportages</h2>
+            <h2 class="article-repo__title">Bekijk de dag-reportages</h2>
             <p class="article-repo__text">De studenten van de opleiding Media Management hebben hun elke dag een 
                 rapportage gemaakt van hun dag waarin ze actie voeren. <br>Bekijk hun video’s!</p>
             <a href="{{url('/reportages')}}" class="article-repo__readmore readmore--black">Lees meer</a>
@@ -55,15 +55,15 @@
 
                 <!-- Full-width images with number and caption text -->
                 <div class="container__slider fade">
-                    <img class="" src="img/variety-of-assorted-designed-cookies-752499.jpg" style="width:100%">
+                    <img class="slider__img" src="img/variety-of-assorted-designed-cookies-752499.jpg" style="width:100%; height: auto;" onclick="location.href='{{url('/reportages')}}'">
                 </div>
 
                 <div class="container__slider fade">
-                    <img src="img/shallow-focus-photo-of-video-recording-3062556.jpg" style="width:100%">
+                    <img class="slider__img" src="img/shallow-focus-photo-of-video-recording-3062556.jpg" style="width:100%" onclick="location.href='{{url('/reportages')}}'">
                 </div>
 
                 <div class="container__slider fade">
-                    <img src="img/photography-of-a-woman-wearing-virtual-reality-headset-911682.jpg" style="width:100%">
+                    <img class="slider__img" src="img/photography-of-a-woman-wearing-virtual-reality-headset-911682.jpg" style="width:100%" onclick="location.href='{{url('/reportages')}}'">
                 </div>
 
                 <!-- Next and previous buttons -->
@@ -81,17 +81,17 @@
         </div>
 
     </section>
-    <section class="main__livestream">
-        <div class="livestream__filter">
-            <iframe class="filter__video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
-            <div class="filter__article-live">
-                <h2 class="article-live__title">Volg de livestream!</h2>
-                <p class="article-live__text">Op 19 december 2019 om 16:45 gaan wij live zodat jullie kunnen zien wat wij in vredesnaam aan het doen zijn.
-                    Mis het niet!</p>
-            </div>
-        </div>
-    </section>
+    {{--<section class="main__livestream">--}}
+        {{--<div class="livestream__filter">--}}
+            {{--<iframe class="filter__video" src="https://www.youtube.com/embed/tgbNymZ7vqY">--}}
+            {{--</iframe>--}}
+            {{--<div class="filter__article-live">--}}
+                {{--<h2 class="article-live__title">Volg de livestream!</h2>--}}
+                {{--<p class="article-live__text">Op 19 december 2019 om 16:45 gaan wij live zodat jullie kunnen zien wat wij in vredesnaam aan het doen zijn.--}}
+                    {{--Mis het niet!</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
     <section class="main__commercial">
         <div class="commercial__article-commercial">
             <div class="article-commercial__wrapper">
@@ -108,3 +108,4 @@
 
     <script src="{{url('/js/slider.js')}}"></script>
 @endsection
+

@@ -6,6 +6,14 @@
 * {
     font-family: "aktiv-grotesk", sans-serif;
 }
+.wrap{
+    height: 20vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
 .header{
     width: 85%;
     display: flex;
@@ -13,6 +21,8 @@
     height: 20vh;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #fff;
+    z-index: 1;
 }
 .header__logo{
     margin: auto 0;
@@ -74,12 +84,21 @@
     height: auto;
     margin: auto 0;
 }
+.header__menu{
+    display: none;
+}
+.space-behind{
+    padding-bottom: 20vh;
+}
 
 .footer{
     width: 100%;
     background-image: url('/img/dandelion-nature-sunlight-54300.jpg');
-    background-size: cover;
-    background-position-y: 850px;
+    background-position-y: 450px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: auto 100%;
+    background-size: 100% auto;
     height: 30vh;
 }
 .footer__wrapper{
@@ -244,7 +263,75 @@
     .logo__img{
         width: 200px;
     }
+    .wrap{
+        height: 15vh;
+    }
+    .header{
+        height: 15vh;
+    }
+    .space-behind{
+        padding-bottom: 15vh;
+    }
 }
-@media screen and (max-width: 1075px){
-    
+@media screen and (max-width: 1050px){
+    .header__nav{
+        display: none;
+    }
+    .header__ma-logo{
+        display: none;
+    }
+    .header__menu{
+        display: inherit;
+        height: 48px;
+        width: 48px;
+        margin: auto 0;
+    }
+    .header__logo{
+        margin: auto;
+    }
+    .logo__img{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 800px){
+    .footer{
+        height: 50vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: 0 100%;
+        background-size: 100% auto;
+    }
+    .footer__wrapper{
+        height: 50vh;
+        flex-direction: column;
+    }
+    .wrapper__part{
+        margin: 1em auto;
+    }
+}
+@media screen and (max-width: 750px){
+    .footer{
+        background-size: 120% auto;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .logo__img{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 618px){
+    .footer{
+        background-size: 200% auto;
+    }
+}
+@media screen and (max-width: 450px){
+    .logo__img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
