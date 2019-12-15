@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MaRequest - {{$pagina}}</title>
+    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="https://use.typekit.net/ojo1xib.css">
     <link rel="stylesheet" href="/css/master.css">
