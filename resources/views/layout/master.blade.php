@@ -19,7 +19,7 @@
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><a href="{{url("/")}}" class="nav__part @if($active === 'home')nav__part--active @else() @endif">Home</a>
     <a href="{{url("/acties")}}" class="sidenav__link @if($active === 'acties')sidenav__link--active @else() @endif">Acties</a>
-    <a href="{{url("/game")}}" class="sidenav__link @if($active === 'vr-game')sidenav__link--active @else() @endif">VR game</a>
+    <a href="https://www.salto.nl/marequest" class="sidenav__link @if($active === 'vr-game')sidenav__link--active @else() @endif" target="_blank">Radio</a>
     <a href="{{url("/reportages")}}" class="sidenav__link @if($active === 'reportages')sidenav__link--active @else() @endif">Reportages</a>
     <a href="{{url("/contact")}}" class="sidenav__link @if($active === 'contact')sidenav__link--active @else() @endif">Contact</a>
 
@@ -34,7 +34,7 @@
         <nav class="header__nav">
             <a href="{{url("/")}}" class="nav__part @if($active === 'home')nav__part--active @else() @endif">Home</a>
             <a href="{{url("/acties")}}" class="nav__part @if($active === 'acties')nav__part--active @else() @endif">Acties</a>
-            <a href="{{url("/game")}}" class="nav__part @if($active === 'vr-game')nav__part--active @else() @endif">VR game</a>
+            <a href="https://www.salto.nl/marequest" class="nav__part @if($active === 'vr-game')nav__part--active @else() @endif" target="_blank">Radio</a>
             <a href="{{url("/reportages")}}" class="nav__part @if($active === 'reportages')nav__part--active @else() @endif">Reportages</a>
             <a href="{{url("/contact")}}" class="nav__part @if($active === 'contact')nav__part--active @else() @endif">Contact</a>
 

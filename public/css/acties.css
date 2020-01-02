@@ -111,13 +111,14 @@
 @media screen and (max-width: 580px){
     .main__acties {
         background-size: 190%;
-        height: 60vh;
+        height: 70vh;
     }
     .acties__filter {
-        height: 60vh;
+        height: 70vh;
     }
     .filter__article {
         margin: 30vh 0 0 0;
+        height: 40vh;
     }
 }
 @media screen and (max-width: 475px){

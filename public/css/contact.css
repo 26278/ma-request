@@ -91,4 +91,17 @@
         margin: 20vh 0 0 0;
     }
 }
+@media screen and (max-height: 668px){
+    .main__contact {
+        height: 60vh;
+    }
+    .contact__filter {
+        height: 60vh;
+    }
+    .filter__content{
+        height: 40vh;
+    }
+    .content__title {
+        margin: .7em 7.5% .5em 7.5%;
+    }
 }

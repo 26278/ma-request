@@ -38,14 +38,14 @@
                 <h2 class="article__title">Doe mee aan de VR Game!</h2>
                 <p class="article__text">3e jaars game developers hebben een
                     Viritual Reality game ontwikkeld als actie voor Make-A-Wish. Doe mee en behaal de High Score!</p>
-                <a class="article__readmore readmore--white" href="{{url('/acties')}}">Lees meer</a>
+                <!-- <a class="article__readmore readmore--white" href="{{url('/acties')}}">Lees meer</a> -->
             </div>
         </div>
     </section>
     <section class="main__reportages">
         <div class="reportages__article-repo">
             <h2 class="article-repo__title">Bekijk de dag-reportages</h2>
-            <p class="article-repo__text">De studenten van de opleiding Media Management hebben hun elke dag een 
+            <p class="article-repo__text">De studenten van de opleiding Media Management hebben hun elke dag een
                 rapportage gemaakt van hun dag waarin ze actie voeren. <br>Bekijk hun video’s!</p>
             <a href="{{url('/reportages')}}" class="article-repo__readmore readmore--black">Lees meer</a>
         </div>
@@ -92,20 +92,19 @@
             {{--</div>--}}
         {{--</div>--}}
     {{--</section>--}}
-    <section class="main__commercial">
-        <div class="commercial__article-commercial">
-            <div class="article-commercial__wrapper">
-                <h2 class="wrapper__title">Nog steeds niet overtuigd?</h2>
-                <p class="wrapper__text">Kijk dan deze commercial!<br>
-                    Onze studenten van media management doen hun uiterste best om donateurs binnen te krijgen voor
-                    Make-A-Wish.</p>
-            </div>
+    {{--<section class="main__commercial">--}}
+        {{--<div class="commercial__article-commercial">--}}
+            {{--<div class="article-commercial__wrapper">--}}
+                {{--<h2 class="wrapper__title">Nog steeds niet overtuigd?</h2>--}}
+                {{--<p class="wrapper__text">Kijk dan deze commercial!<br>--}}
+                    {{--Onze studenten van media management doen hun uiterste best om donateurs binnen te krijgen voor--}}
+                    {{--Make-A-Wish.</p>--}}
+            {{--</div>--}}
 
-        </div>
-            <iframe class="commercial__video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
-    </section>
+        {{--</div>--}}
+            {{--<iframe class="commercial__video" src="https://www.youtube.com/embed/tgbNymZ7vqY">--}}
+            {{--</iframe>--}}
+    {{--</section>--}}
 
     <script src="{{url('/js/slider.js')}}"></script>
 @endsection
-

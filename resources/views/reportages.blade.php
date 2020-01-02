@@ -31,40 +31,30 @@
         </div>
     </section>
     <section class="main__verslag">
-         <div class="verslag__article-verslag">
-             <h2 class="article-verslag__title">Dag verslag #1</h2>
-             <p class="article-verslag__text">Lorem ipsum dolor amet ramps normcore street art vaporware, butcher umami tofu
-                 banh mi. Raclette chicharrones activated charcoal tote bag scenester irony. Lomo disrupt air plant
-                 semiotics helvetica butcher street art 90’s tbh chartreuse migas whatever twee hot chicken blue bottle.
-                 Echo park authentic squid pour-over, raw denim salvia franzen mixtape portland forage wolf. Yr tacos
-                 keffiyeh meditation unicorn vinyl street art photo booth live-edge portland chia meggings hell of
-                 Tumblr roof party.</p>
-         </div>
-        <iframe class="verslag__video" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        <div class="verslag__article-verslag">
+            <h2 class="article-verslag__title">Maandag 17 december 2019<br>Dag reportage</h2>
+            <p class="article-verslag__text"></p>
+        </div>
+        <iframe class="verslag__video" src="https://www.youtube.com/embed/cTy3aH9Oi-k"></iframe>
     </section>
     <section class="main__verslag--white">
-        <iframe class="verslag__video" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-        <div class="verslag__article-verslag">
-            <h2 class="article-verslag__title">Dag verslag #2</h2>
-            <p class="article-verslag__text">Lorem ipsum dolor amet ramps normcore street art vaporware, butcher umami tofu
-                banh mi. Raclette chicharrones activated charcoal tote bag scenester irony. Lomo disrupt air plant
-                semiotics helvetica butcher street art 90’s tbh chartreuse migas whatever twee hot chicken blue bottle.
-                Echo park authentic squid pour-over, raw denim salvia franzen mixtape portland forage wolf. Yr tacos
-                keffiyeh meditation unicorn vinyl street art photo booth live-edge portland chia meggings hell of
-                Tumblr roof party.</p>
-        </div>
+    <iframe class="verslag__video" src="https://www.youtube.com/embed/cqzBrGI9-wQ"></iframe>
+    <div class="verslag__article-verslag">
+    <h2 class="article-verslag__title">Maandag 18 december 2019<br>Dag reportage</h2>
+    <p class="article-verslag__text"></p>
+    </div>
     </section>
-    <section class="main__verslag">
-        <div class="verslag__article-verslag">
-            <h2 class="article-verslag__title">Dag verslag #3</h2>
-            <p class="article-verslag__text">Lorem ipsum dolor amet ramps normcore street art vaporware, butcher umami tofu
-                banh mi. Raclette chicharrones activated charcoal tote bag scenester irony. Lomo disrupt air plant
-                semiotics helvetica butcher street art 90’s tbh chartreuse migas whatever twee hot chicken blue bottle.
-                Echo park authentic squid pour-over, raw denim salvia franzen mixtape portland forage wolf. Yr tacos
-                keffiyeh meditation unicorn vinyl street art photo booth live-edge portland chia meggings hell of
-                Tumblr roof party.</p>
-        </div>
-        <iframe class="verslag__video" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-    </section>
+    {{--<section class="main__verslag">--}}
+    {{--<div class="verslag__article-verslag">--}}
+    {{--<h2 class="article-verslag__title">Dag verslag #3</h2>--}}
+    {{--<p class="article-verslag__text">Lorem ipsum dolor amet ramps normcore street art vaporware, butcher umami tofu--}}
+    {{--banh mi. Raclette chicharrones activated charcoal tote bag scenester irony. Lomo disrupt air plant--}}
+    {{--semiotics helvetica butcher street art 90’s tbh chartreuse migas whatever twee hot chicken blue bottle.--}}
+    {{--Echo park authentic squid pour-over, raw denim salvia franzen mixtape portland forage wolf. Yr tacos--}}
+    {{--keffiyeh meditation unicorn vinyl street art photo booth live-edge portland chia meggings hell of--}}
+    {{--Tumblr roof party.</p>--}}
+    {{--</div>--}}
+    {{--<iframe class="verslag__video" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>--}}
+    {{--</section>--}}
 
 @endsection

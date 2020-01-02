@@ -194,14 +194,22 @@
 }
 @media screen and (max-width: 475px){
     .main__reportages{
-        height: 50vh;
+        height: 60vh;
         background-size: 210%;
     }
     .reportages__filter{
-        height: 50vh;
+        height: 40vh;
     }
     .filter__article{
-        height: 30vh;
+        height: 40vh;
         margin: 20vh 0 0 0;
+    }
+}
+@media screen and (max-height: 668px){
+    .main__maw {
+        height: 135vh;
+    }
+    .main__verslag{
+        height: 120vh;
     }
 }

@@ -285,6 +285,8 @@
         height: 48px;
         width: 48px;
         margin: auto 0;
+        padding: 10px 10px;
+        box-sizing: content-box;
     }
     .header__logo{
         margin: auto;
@@ -295,14 +297,14 @@
 }
 @media screen and (max-width: 800px){
     .footer{
-        height: 50vh;
+        height: 60vh;
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: 0 100%;
         background-size: 100% auto;
     }
     .footer__wrapper{
-        height: 50vh;
+        height: 60vh;
         flex-direction: column;
     }
     .wrapper__part{
@@ -328,6 +330,15 @@
 @media screen and (max-width: 450px){
     .logo__img{
         width: 250px;
+    }
+}
+
+@media screen and (max-height: 668px){
+    .footer{
+        height: 70vh;
+    }
+    .footer__wrapper{
+        height: 70vh;
     }
 }
 
