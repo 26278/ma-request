@@ -1,5 +1,5 @@
 ## MaRequest, a Laravel website for a charity event.
-**[Marequest](https://](https://marequest.nl/)**.
+Website: **[Marequest.nl](https://marequest.nl/)**
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
